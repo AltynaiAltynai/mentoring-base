@@ -56,11 +56,11 @@
 <div class="content-container">
   <div class="item-cards">
     <div class="item-cards__pagination">
-      <button class="item-cards__pagination-btn active-button">1</button>
-      <button class="item-cards__pagination-btn">2</button>
+      <button class="item-cards__pagination-btn active-button" *ngFor="let item of newPages">{{item}}</button>
+      <!-- <button class="item-cards__pagination-btn">2</button>
       <button class="item-cards__pagination-btn">3</button>
       <button class="item-cards__pagination-btn">4</button>
-      <button class="item-cards__pagination-btn">5</button>
+      <button class="item-cards__pagination-btn">5</button> -->
     </div>
 
     <div class="item-cards__grid">
@@ -137,7 +137,7 @@
     </div>
   </div>
 </div>
-
+ 
 <footer>
   <div class="footer-container">
     <div class="footer-top">

@@ -13,7 +13,7 @@ const func = (data: string) => {return data};
 const itemName: string = 'О компании';
 const companyfunc = func(itemName);
 
-const newPages = [5, 4, ,3, 2, 1];
+const newPages = [5, 4, 3, 2, 1];
 
 const menuItems = ['Каталог', 'Стройматериалы', 'Инструменты', 'Электрика', 'Интерьер и одежда'];
 const upperCaseMenuItem = menuItems.map((item) => item.toUpperCase())
