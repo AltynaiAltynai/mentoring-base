@@ -1,0 +1,38 @@
+.users {
+    font-family: Inter;
+    width: 100%
+    
+}
+
+.usersTitle{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.usersCard{
+   //max-width: 1320px;
+   padding: 0;
+    display: flex; 
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.usersCardItem {
+    width: 250px; 
+    height: 200px; 
+    //border: 1px black solid; 
+    //margin: 0 0 15px 15px;
+    box-shadow: 0px 20px 50px 0px #3c3c3b12;
+   //word-wrap: break-word;
+   padding-left: 10px;
+
+}
+
+.usersCardItem button {
+    background-color: transparent;
+   border: 1px solid #F0BA4E;
+   border-radius: 50px;
+   padding: 7px 10px;
+}
